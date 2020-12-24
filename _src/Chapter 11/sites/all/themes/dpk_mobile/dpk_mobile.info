@@ -1,0 +1,20 @@
+name = "DPK Mobile"
+description = "Ideal for small devices and/or for low-bandwidth consumers."
+core = 7.x
+base theme = jqm
+
+engine = phptemplate
+regions[content] = Content
+regions[content_bottom] = Content Bottom
+regions[header] = Header
+regions[footer] = Footer
+
+stylesheets[all][] = css/global.css
+scripts[] = js/global.js
+
+; Information added by drupal.org packaging script on 2010-12-11
+version = "7.x-1.x-dev"
+core = "7.x"
+project = "mobile"
+datestamp = "1292026750"
+
